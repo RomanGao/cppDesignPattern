@@ -31,7 +31,8 @@
                 "-std=c++11",
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+               // "${file}", //单个文件编译
+               "${fileDirname}/*.cpp", //多个文件编译
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
