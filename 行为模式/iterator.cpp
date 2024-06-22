@@ -1,7 +1,8 @@
 /*
-迭代器模式：
+迭代器模式
 */
 
+//通过修改 tasks.json中args,切换vscode是单文件变异还是多文件变异
 //双向链表代码实例
 #include<iostream>
 #include<vector>
