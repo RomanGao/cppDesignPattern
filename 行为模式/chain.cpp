@@ -109,7 +109,7 @@ public:
     }
 };
 
-/*
+
 int main()
 {
     //测试
@@ -141,4 +141,4 @@ int main()
     delete m1;
 
     return 0;
-}*/
+}

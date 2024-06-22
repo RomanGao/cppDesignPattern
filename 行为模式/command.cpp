@@ -165,7 +165,7 @@ public:
 private:
     map<int, list<AbtractComand*>> m_orders; //服务员需要维护一个订单列表
 };
-/*
+
 int main()
 {
     //测试
@@ -211,4 +211,4 @@ int main()
     delete hspg;
 
     return 0;
-}*/
+}
