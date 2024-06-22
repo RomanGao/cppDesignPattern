@@ -31,8 +31,8 @@
                 "-std=c++11",
                 "-fdiagnostics-color=always",
                 "-g",
-               // "${file}", //单个文件编译
-               "${fileDirname}/*.cpp", //多个文件编译
+                "${file}", //单个文件编译
+               //"${fileDirname}/*.cpp", //多个文件编译,但是该目录下只能有一个main函数
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
