@@ -9,7 +9,7 @@ Node* MyList::insert(Node* node, string name)
         newNode = pushFront(name);
     }
     else
-    {
+    { 
         newNode = new Node(name);
         //1 将newNode和链表连接
         newNode->next = node;
