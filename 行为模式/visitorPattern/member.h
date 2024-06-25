@@ -9,7 +9,7 @@ class AbstractMember {
 public:
     AbstractMember(string name):m_name(name) {}
     string getName()
-    {
+    { 
         return m_name;
     }
     //访问接口函数
